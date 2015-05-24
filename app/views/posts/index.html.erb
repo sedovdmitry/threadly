@@ -1,0 +1,22 @@
+<div class="header">
+  <div class="container">
+    <h1>короткие мылси</h1>
+  </dvi>
+</div>
+
+<div class="main">
+  <div class="container">
+
+    <%= form_for @new_post |f| do %>
+      post <%= f.text_field :post %>
+      <%= f.submit class: "btn" %>
+    <% end %>
+
+    <ul class="comments">
+      <% @all_posts.each do |p| %>
+      <li><%= p.comment %></li>
+      <% end %>
+    </ul>
+
+  </div>
+</div>
