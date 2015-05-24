@@ -3,6 +3,7 @@ class CreatePosts < ActiveRecord::Migration
     create_table :posts do |t|
 
       t.timestamps null: false
+      t.string :comment
     end
   end
 end
