@@ -1,14 +1,14 @@
 <div class="header">
   <div class="container">
-    <h1>короткие мылси</h1>
+    <h1>мыслишки :)</h1>
   </dvi>
 </div>
 
 <div class="main">
   <div class="container">
 
-    <%= form_for @new_post |f| do %>
-      post <%= f.text_field :post %>
+    <%= form_for @new_post do |f| %>
+      <%= f.text_field :comment %>
       <%= f.submit class: "btn" %>
     <% end %>
 
