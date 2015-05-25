@@ -4,3 +4,8 @@ Rails app commenting service. When a user types a comment into the box and click
 
 ---
 
+[demo](https://commentz.herokuapp.com "demo")
+
+---
+
+![screenshot](https://github.com/sedovdmitry/threadly/blob/master/app/assets/images/screenshot.jpg "screenshot app")
