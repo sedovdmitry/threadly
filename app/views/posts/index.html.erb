@@ -8,8 +8,8 @@
   <div class="container">
 
     <%= form_for @new_post do |f| %>
-      <%= f.text_field :comment %>
-      <%= f.submit class: "btn" %>
+      <%= f.text_field :comment, :placeholder => "о чем думаете сейчас?" %>
+      <%= f.submit class: "btn", value: "Отправить" %>
     <% end %>
 
     <ul class="comments">
