@@ -8,4 +8,4 @@ Rails app commenting service. When a user types a comment into the box and click
 
 ---
 
-![screenshot](https://github.com/sedovdmitry/threadly/blob/master/app/assets/images/screenshot.jpg "screenshot app")
+![screenshot](https://github.com/sedovdmitry/threadly/blob/master/app/assets/images/screenshot.png "screenshot app")
